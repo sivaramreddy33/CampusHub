@@ -1,0 +1,1009 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@campushub.com",
+      "password_hash": "$2a$10$iM.o50Uu5z1Yj8yL1sH4he2cbnqZsmZ5wzE8Uq0u0sP8FwW2mF9gO",
+      "first_name": "Dr. Suresh",
+      "last_name": "Kumar",
+      "role": "ADMIN",
+      "phone": "+91 98765 43210",
+      "profile_image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 2,
+      "username": "faculty_ece",
+      "email": "faculty@campushub.com",
+      "password_hash": "$2a$10$wE9K6s5k8m0B9x7Y1sH4he5rtyqZsmZ5wzE8Uq0u0sP8FwW2mF9gO",
+      "first_name": "Prof. Rajesh",
+      "last_name": "Sharma",
+      "role": "FACULTY",
+      "phone": "+91 98451 23456",
+      "profile_image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 3,
+      "username": "student_sivarami",
+      "email": "student@campushub.com",
+      "password_hash": "$2a$10$kP2R9q7m4s1V8yL1sH4he7uiopqZsmZ5wzE8Uq0u0sP8FwW2mF9gO",
+      "first_name": "Pidugu Sivarami",
+      "last_name": "Reddy",
+      "role": "STUDENT",
+      "phone": "+91 91234 56789",
+      "profile_image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 4,
+      "username": "student_ananya",
+      "email": "ananya.p@campushub.com",
+      "password_hash": "$2a$10$kP2R9q7m4s1V8yL1sH4he7uiopqZsmZ5wzE8Uq0u0sP8FwW2mF9gO",
+      "first_name": "Ananya",
+      "last_name": "Patel",
+      "role": "STUDENT",
+      "phone": "+91 94567 12345",
+      "profile_image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 5,
+      "username": "student_vikram",
+      "email": "vikram.m@campushub.com",
+      "password_hash": "$2a$10$kP2R9q7m4s1V8yL1sH4he7uiopqZsmZ5wzE8Uq0u0sP8FwW2mF9gO",
+      "first_name": "Vikram",
+      "last_name": "Mehta",
+      "role": "STUDENT",
+      "phone": "+91 97890 65432",
+      "profile_image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 6,
+      "username": "faculty_cse",
+      "email": "priya.cse@campushub.com",
+      "password_hash": "$2a$10$wE9K6s5k8m0B9x7Y1sH4he5rtyqZsmZ5wzE8Uq0u0sP8FwW2mF9gO",
+      "first_name": "Dr. Priya",
+      "last_name": "Nair",
+      "role": "FACULTY",
+      "phone": "+91 98222 33445",
+      "profile_image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 7,
+      "username": "sivaprabha284",
+      "email": "sivaramreddy445@gmail.com",
+      "password_hash": "$2b$10$4dncgv7ieLLv1a3DcEQkneFKRr9TB0jZ/F81hiU1zLrOonD1RC.pC",
+      "first_name": "Siva",
+      "last_name": "Reddy",
+      "role": "STUDENT",
+      "phone": "+919885533455",
+      "profile_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=sivaprabha284",
+      "created_at": "2026-09-05T06:35:33.195Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Electronics and Communication Engineering",
+      "code": "ECE",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 2,
+      "name": "Computer Science and Engineering",
+      "code": "CSE",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 3,
+      "name": "Electrical and Electronics Engineering",
+      "code": "EEE",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 4,
+      "name": "Mechanical Engineering",
+      "code": "MECH",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 5,
+      "name": "Civil Engineering",
+      "code": "CIVIL",
+      "created_at": "2026-09-05T06:18:07.120Z"
+    }
+  ],
+  "student_profiles": [
+    {
+      "id": 1,
+      "user_id": 3,
+      "roll_number": "2023ECE104",
+      "department_id": 1,
+      "year": 3,
+      "section": "A",
+      "date_of_birth": "2003-05-14",
+      "address": "Plot 42, Green Avenue, Tech City, Hyderabad, India"
+    },
+    {
+      "id": 2,
+      "user_id": 4,
+      "roll_number": "2023ECE105",
+      "department_id": 1,
+      "year": 3,
+      "section": "A",
+      "date_of_birth": "2003-08-22",
+      "address": "Flat 302, Lakeview Apartments, Bengaluru, India"
+    },
+    {
+      "id": 3,
+      "user_id": 5,
+      "roll_number": "2023ECE106",
+      "department_id": 1,
+      "year": 3,
+      "section": "B",
+      "date_of_birth": "2003-11-05",
+      "address": "House No 12, River Road, Chennai, India"
+    },
+    {
+      "id": 4,
+      "user_id": 7,
+      "roll_number": "2310233990",
+      "department_id": 1,
+      "year": 1,
+      "section": "A",
+      "date_of_birth": "2004-01-01",
+      "address": "bonnie blue"
+    }
+  ],
+  "faculty_profiles": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "employee_id": "FAC-ECE-01",
+      "department_id": 1,
+      "designation": "Associate Professor & HOD"
+    },
+    {
+      "id": 2,
+      "user_id": 6,
+      "employee_id": "FAC-CSE-02",
+      "department_id": 2,
+      "designation": "Assistant Professor"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Digital Signal Processing",
+      "code": "EC501",
+      "department_id": 1,
+      "semester": 5,
+      "faculty_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Embedded Systems & IoT",
+      "code": "EC502",
+      "department_id": 1,
+      "semester": 5,
+      "faculty_id": 1
+    },
+    {
+      "id": 3,
+      "name": "VLSI Design & Technology",
+      "code": "EC503",
+      "department_id": 1,
+      "semester": 5,
+      "faculty_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Wireless Communication Networks",
+      "code": "EC504",
+      "department_id": 1,
+      "semester": 5,
+      "faculty_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Database Management Systems",
+      "code": "CS501",
+      "department_id": 2,
+      "semester": 5,
+      "faculty_id": 2
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-08-22",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 2,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-08-22",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 3,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-08-22",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 4,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-08-22",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 5,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-08-22",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 6,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-08-23",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 7,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-08-23",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 8,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-08-23",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 9,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-08-23",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 10,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-08-23",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 11,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-08-24",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 12,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-08-24",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 13,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-08-24",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 14,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-08-24",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 15,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-08-24",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 16,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-08-25",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 17,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-08-25",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 18,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-08-25",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 19,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-08-25",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 20,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-08-25",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 21,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-08-26",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 22,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-08-26",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 23,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-08-26",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 24,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-08-26",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 25,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-08-26",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 26,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-08-27",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 27,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-08-27",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 28,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-08-27",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 29,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-08-27",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 30,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-08-27",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 31,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-08-28",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 32,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-08-28",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 33,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-08-28",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 34,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-08-28",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 35,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-08-28",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 36,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-08-29",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 37,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-08-29",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 38,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-08-29",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 39,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-08-29",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 40,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-08-29",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 41,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-08-30",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 42,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-08-30",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 43,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-08-30",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 44,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-08-30",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 45,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-08-30",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 46,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-08-31",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 47,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-08-31",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 48,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-08-31",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 49,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-08-31",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 50,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-08-31",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 51,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-09-01",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 52,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-09-01",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 53,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-09-01",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 54,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-09-01",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 55,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-09-01",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 56,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-09-02",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 57,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-09-02",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 58,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-09-02",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 59,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-09-02",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 60,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-09-02",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 61,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-09-03",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 62,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-09-03",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 63,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-09-03",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 64,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-09-03",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 65,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-09-03",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 66,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-09-04",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 67,
+      "student_id": 3,
+      "subject_id": 2,
+      "date": "2026-09-04",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 68,
+      "student_id": 3,
+      "subject_id": 3,
+      "date": "2026-09-04",
+      "status": "ABSENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 69,
+      "student_id": 3,
+      "subject_id": 4,
+      "date": "2026-09-04",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 70,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-09-04",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T06:18:07.120Z"
+    },
+    {
+      "id": 71,
+      "student_id": 3,
+      "subject_id": 1,
+      "date": "2026-09-05",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T07:19:46.614Z"
+    },
+    {
+      "id": 72,
+      "student_id": 4,
+      "subject_id": 1,
+      "date": "2026-09-05",
+      "status": "PRESENT",
+      "marked_by": 2,
+      "created_at": "2026-09-05T07:21:36.025Z"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "title": "DSP Filter Design using MATLAB / SciPy",
+      "description": "Design and simulate an FIR Low-Pass filter with cutoff frequency of 2.5 kHz and sampling rate of 10 kHz. Submit report with frequency response plots and source code.",
+      "subject_id": 1,
+      "faculty_id": 1,
+      "deadline": "2026-09-12T06:18:07.120Z",
+      "created_at": "2026-08-31",
+      "updated_at": "2026-08-31"
+    },
+    {
+      "id": 2,
+      "title": "ARM Cortex-M Interrupt Handling Lab",
+      "description": "Implement external interrupt handling on GPIO pin with debouncing logic. Document timer-triggered ADC conversions.",
+      "subject_id": 2,
+      "faculty_id": 1,
+      "deadline": "2026-09-08T06:18:07.120Z",
+      "created_at": "2026-09-01",
+      "updated_at": "2026-09-01"
+    },
+    {
+      "id": 3,
+      "title": "CMOS Inverter VTC & Propagation Delay Analysis",
+      "description": "Perform transient and DC simulation of 45nm CMOS inverter. Calculate VIL, VIH, NMH, NML and average delay.",
+      "subject_id": 3,
+      "faculty_id": 1,
+      "deadline": "2026-09-03",
+      "created_at": "2026-08-26",
+      "updated_at": "2026-08-26"
+    },
+    {
+      "id": 4,
+      "title": "OFDM Modulation & Multipath Fading Analysis",
+      "description": "Write a comprehensive report on 5G NR physical layer frame structure and cyclic prefix length tradeoffs.",
+      "subject_id": 4,
+      "faculty_id": 1,
+      "deadline": "2026-09-15T06:18:07.120Z",
+      "created_at": "2026-09-03",
+      "updated_at": "2026-09-03"
+    }
+  ],
+  "submissions": [
+    {
+      "id": 1,
+      "assignment_id": 3,
+      "student_id": 3,
+      "submission_file": "cmos_vtc_analysis_sivarami.pdf",
+      "submission_text": "Completed all DC and transient analysis in SPICE. All noise margin values calculated accurately and verified with theoretical formulas.",
+      "submitted_at": "2026-09-02",
+      "marks": 92,
+      "feedback": "Excellent circuit modeling and accurate delay calculations. Well documented waveforms.",
+      "status": "GRADED"
+    },
+    {
+      "id": 2,
+      "assignment_id": 2,
+      "student_id": 3,
+      "submission_file": "arm_interrupt_sivarami.c",
+      "submission_text": "Submitted interrupt vector table configuration and software debouncing routine with state machine approach.",
+      "submitted_at": "2026-09-04",
+      "marks": null,
+      "status": "SUBMITTED"
+    },
+    {
+      "id": 3,
+      "assignment_id": 3,
+      "student_id": 4,
+      "submission_file": "ananya_cmos_report.pdf",
+      "submission_text": "Submitted simulation results for CMOS inverter.",
+      "submitted_at": "2026-09-04",
+      "marks": 78,
+      "feedback": "Good report but submitted late after deadline. 5 marks deducted.",
+      "status": "GRADED"
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "Mid-Semester Examinations Schedule Announced",
+      "content": "The Mid-Semester Theory & Practical Examinations for all B.Tech 3rd Year students will commence from next month. Hall tickets will be released on the portal 5 days prior.",
+      "created_by": 1,
+      "department_id": null,
+      "created_at": "2026-09-03",
+      "updated_at": "2026-09-03"
+    },
+    {
+      "id": 2,
+      "title": "ECE Department Workshop on Embedded AI & TinyML",
+      "content": "The ECE department is organizing a hands-on 2-day technical workshop on deploying neural networks on STM32 / ESP32 microcontrollers. Registration is free for 3rd and 4th year students.",
+      "created_by": 2,
+      "department_id": 1,
+      "created_at": "2026-09-01",
+      "updated_at": "2026-09-01"
+    },
+    {
+      "id": 3,
+      "title": "Campus Recruitment Drive: Core Embedded & VLSI Firms",
+      "content": "Leading semiconductor and embedded firmware companies will be visiting the campus for internship and placement drives. Check syllabus and prepare resume.",
+      "created_by": 1,
+      "department_id": null,
+      "created_at": "2026-08-30",
+      "updated_at": "2026-08-30"
+    }
+  ],
+  "complaints": [
+    {
+      "id": 1,
+      "student_id": 3,
+      "category": "Infrastructure",
+      "subject": "Faulty Digital Storage Oscilloscope in ECE Lab 2",
+      "description": "Oscilloscope Station #4 in ECE Advanced Electronics Lab has an intermittent trigger issue on Channel 2, causing signal loss during DSP experiments.",
+      "status": "RESOLVED",
+      "admin_response": "Lab technician inspected the unit on 2nd Sep. Probe and BNC cable were replaced, and calibration was verified. Station is now operational.",
+      "created_at": "2026-08-30",
+      "updated_at": "2026-09-02"
+    },
+    {
+      "id": 2,
+      "student_id": 3,
+      "category": "Internet",
+      "subject": "High latency and intermittent Wi-Fi drops in ECE Block 3rd Floor",
+      "description": "The Wi-Fi access point near Seminar Hall 3 drops connection every 15 minutes during project research hours.",
+      "status": "IN_PROGRESS",
+      "admin_response": "IT infrastructure team is upgrading firmware on the Cisco APs this weekend and adding load balancing.",
+      "created_at": "2026-09-03",
+      "updated_at": "2026-09-04"
+    },
+    {
+      "id": 3,
+      "student_id": 4,
+      "category": "Library",
+      "subject": "Request for additional copies of Oppenheim Discrete-Time Signal Processing",
+      "description": "The reference section has only 2 copies of DSP by Oppenheim & Schafer which are constantly checked out.",
+      "status": "PENDING",
+      "created_at": "2026-09-04",
+      "updated_at": "2026-09-04"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "CampusHub",
+  "description": "A production-style full-stack Student Management & Services Platform featuring role-based dashboards for Students, Faculty, and Administrators with attendance tracking, assignments, grading, complaints, announcements, and REST APIs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
